@@ -1,6 +1,7 @@
+use std::env::{args, Args};
+
 fn main() {
-    println!("Hello, world!");
-    for i in [1,2,3] {
-        println!("{}", i);
-    }
+    let mut args: Args = args();
+    let first = args.nth(0);
+    println!("{:?}", first);
 }
