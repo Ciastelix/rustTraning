@@ -1,3 +1,1 @@
-# rust-training
-# rustTraning
 # rustTraning
